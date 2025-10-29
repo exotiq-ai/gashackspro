@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { Droplet, Gauge, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { CircularFuelGauge } from "@/components/ui/circular-fuel-gauge";
+import { OctaneMeter } from "@/components/ui/octane-meter";
 import { PremiumSlider } from "@/components/PremiumSlider";
 import { VehicleSelector } from "@/components/VehicleSelector";
 import { FuelGauge } from "@/components/FuelGauge";
@@ -167,7 +169,7 @@ export default function Calculator() {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="border-b border-border/50 backdrop-blur-sm bg-background/80 sticky top-0 z-50">
+      <header className="border-b border-border/50 glass-morphism sticky top-0 z-50 shadow-premium-md">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img src="/gas-hacks-icon.png" alt="Gas Hacks Pro" className="w-12 h-12" />
@@ -247,7 +249,7 @@ export default function Calculator() {
       <main className="container py-8">
         <div className="max-w-4xl mx-auto space-y-6">
           {/* Vehicle Selection */}
-          <Card className="p-6 glass hover-lift smooth-entrance stagger-1">
+          <Card className="p-6 glass hover-lift smooth-entrance stagger-1 shadow-premium-lg border-border/50 state-overlay">
             <VehicleSelector
               selectedMake={state.selectedMake}
               selectedModel={state.selectedModel}
@@ -292,8 +294,32 @@ export default function Calculator() {
             currentTarget={state.targetEthanol}
           />
 
+          {/* Premium Visualizations */}
+          {state.selectedModel && (
+            <Card className="p-8 shadow-premium-xl border-border/50 relative overflow-hidden">
+              <div className="gradient-mesh-orange absolute inset-0 opacity-50" />
+              <div className="relative z-10">
+                <h2 className="text-2xl font-bold text-center mb-8 bg-gradient-to-r from-orange-500 via-orange-400 to-orange-600 bg-clip-text text-transparent">
+                  Premium Fuel Analytics
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-items-center">
+                  <CircularFuelGauge
+                    fuelLevel={state.currentLevel}
+                    ethanolPercent={blendResult.resultingMix}
+                    size={220}
+                    label="Current Mix"
+                  />
+                  <OctaneMeter
+                    octane={blendResult.octaneRating}
+                    size={220}
+                  />
+                </div>
+              </div>
+            </Card>
+          )}
+
           {/* Tank Configuration */}
-          <Card className="p-6 bg-card border-border space-y-6">
+          <Card className="p-6 bg-card border-border space-y-6 shadow-premium-lg hover-lift state-overlay">
             <h2 className="text-lg font-semibold text-foreground flex items-center gap-2">
               <Gauge className="h-5 w-5 text-accent" />
               Tank Configuration
@@ -350,7 +376,7 @@ export default function Calculator() {
           </Card>
 
           {/* Fuel Configuration */}
-          <Card className="p-6 bg-card border-border space-y-6">
+          <Card className="p-6 bg-card border-border space-y-6 shadow-premium-lg hover-lift state-overlay">
             <h2 className="text-lg font-semibold text-foreground">
               Fuel Configuration
             </h2>
@@ -403,7 +429,9 @@ export default function Calculator() {
           </Card>
 
           {/* Results */}
-          <Card className="p-6 bg-card border-border space-y-6">
+          <Card className="p-6 bg-card border-border space-y-6 shadow-premium-xl hover-glow state-overlay relative overflow-hidden">
+            <div className="gradient-mesh-blue absolute inset-0 opacity-30" />
+            <div className="relative z-10 space-y-6">
             <h2 className="text-lg font-semibold text-foreground">Blend Results</h2>
 
             {!blendResult.canFillToTarget && (
@@ -455,6 +483,7 @@ export default function Calculator() {
                   <p className="text-xs text-muted-foreground">Rating</p>
                 </div>
               </div>
+            </div>
             </div>
           </Card>
 

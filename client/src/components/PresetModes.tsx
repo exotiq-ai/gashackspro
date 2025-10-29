@@ -1,6 +1,7 @@
 import { Flame, Car, DollarSign, Snowflake } from "lucide-react";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
+import { Ripple } from "./ui/ripple";
 
 export interface PresetMode {
   name: string;
@@ -51,7 +52,7 @@ export function PresetModes({
   currentTarget,
 }: PresetModesProps) {
   return (
-    <Card className="p-6 bg-card border-border space-y-4">
+    <Card className="p-6 bg-card border-border space-y-4 shadow-premium-lg hover-lift state-overlay">
       <h3 className="text-sm font-semibold text-foreground">Quick Presets</h3>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         {PRESET_MODES.map((preset) => {
@@ -62,14 +63,15 @@ export function PresetModes({
               key={preset.name}
               onClick={() => onPresetSelect(preset)}
               className={`
-                relative p-4 rounded-lg border-2 transition-all duration-300 min-h-[88px] touch-manipulation
+                relative overflow-hidden p-4 rounded-lg border-2 transition-all duration-300 min-h-[88px] touch-manipulation
                 ${
                   isActive
-                    ? `bg-gradient-to-br ${preset.color} scale-105`
+                    ? `bg-gradient-to-br ${preset.color} scale-105 shadow-premium-md`
                     : "bg-muted/30 border-border hover:border-accent/50 hover:scale-102"
                 }
               `}
             >
+              <Ripple color={isActive ? "oklch(0.7 0.15 40 / 0.3)" : undefined} />
               <div className="flex flex-col items-center gap-2 text-center">
                 <div
                   className={`
