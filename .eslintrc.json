@@ -1,0 +1,121 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "react",
+    "react-hooks",
+    "jsx-a11y",
+    "import"
+  ],
+  "rules": {
+    // Premium Code Quality Rules
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-unused-vars": ["error", {
+      "argsIgnorePattern": "^_",
+      "varsIgnorePattern": "^_"
+    }],
+    "@typescript-eslint/explicit-function-return-type": ["warn", {
+      "allowExpressions": true,
+      "allowTypedFunctionExpressions": true
+    }],
+    "@typescript-eslint/no-floating-promises": "error",
+    "@typescript-eslint/no-misused-promises": "error",
+    "@typescript-eslint/await-thenable": "error",
+    "@typescript-eslint/no-unnecessary-condition": "warn",
+    "@typescript-eslint/prefer-nullish-coalescing": "warn",
+    "@typescript-eslint/prefer-optional-chain": "warn",
+    "@typescript-eslint/strict-boolean-expressions": ["warn", {
+      "allowString": true,
+      "allowNumber": true,
+      "allowNullableObject": true
+    }],
+
+    // React Best Practices
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/jsx-no-target-blank": "error",
+    "react/jsx-key": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+
+    // Accessibility (A11y)
+    "jsx-a11y/anchor-is-valid": "warn",
+    "jsx-a11y/click-events-have-key-events": "warn",
+    "jsx-a11y/no-static-element-interactions": "warn",
+
+    // Import Organization
+    "import/order": ["warn", {
+      "groups": [
+        "builtin",
+        "external",
+        "internal",
+        "parent",
+        "sibling",
+        "index"
+      ],
+      "pathGroups": [
+        {
+          "pattern": "react",
+          "group": "external",
+          "position": "before"
+        },
+        {
+          "pattern": "@/**",
+          "group": "internal"
+        }
+      ],
+      "pathGroupsExcludedImportTypes": ["react"],
+      "alphabetize": {
+        "order": "asc",
+        "caseInsensitive": true
+      }
+    }],
+    "import/no-unresolved": "off",
+    "import/named": "off",
+
+    // Code Quality
+    "no-console": ["warn", {
+      "allow": ["warn", "error"]
+    }],
+    "no-debugger": "error",
+    "prefer-const": "error",
+    "no-var": "error",
+    "eqeqeq": ["error", "always"]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": "./tsconfig.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "vehicles": [
+    {
+      "make": "Audi",
+      "models": [
+        { "name": "A3", "tankSize": 13.2, "year": "2020-2025" },
+        { "name": "A4", "tankSize": 14.3, "year": "2020-2025" },
+        { "name": "A5", "tankSize": 17.2, "year": "2020-2025" },
+        { "name": "A6", "tankSize": 19.3, "year": "2020-2025" },
+        { "name": "A7", "tankSize": 16.6, "year": "2020-2025" },
+        { "name": "A8", "tankSize": 21.7, "year": "2020-2025" },
+        { "name": "S3", "tankSize": 13.2, "year": "2020-2025" },
+        { "name": "S4", "tankSize": 14.3, "year": "2020-2025" },
+        { "name": "S5", "tankSize": 17.2, "year": "2020-2025" },
+        { "name": "S6", "tankSize": 21.1, "year": "2020-2025" },
+        { "name": "S7", "tankSize": 19.3, "year": "2020-2025" },
+        { "name": "S8", "tankSize": 21.7, "year": "2020-2025" },
+        { "name": "RS3", "tankSize": 13.2, "year": "2020-2025" },
+        { "name": "RS4", "tankSize": 14.3, "year": "2020-2025" },
+        { "name": "RS5", "tankSize": 15.3, "year": "2020-2025" },
+        { "name": "RS6", "tankSize": 21.1, "year": "2020-2025" },
+        { "name": "RS7", "tankSize": 19.3, "year": "2020-2025" },
+        { "name": "Q3", "tankSize": 14.5, "year": "2020-2025" },
+        { "name": "Q5", "tankSize": 18.5, "year": "2020-2025" },
+        { "name": "Q7", "tankSize": 19.8, "year": "2020-2025" },
+        { "name": "Q8", "tankSize": 22.5, "year": "2020-2025" },
+        { "name": "TT", "tankSize": 13.2, "year": "2020-2025" },
+        { "name": "R8", "tankSize": 21.1, "year": "2020-2025" }
+      ]
+    },
+    {
+      "make": "BMW",
+      "models": [
+        { "name": "M2", "tankSize": 13.5, "year": "2020-2025" },
+        { "name": "M3", "tankSize": 15.6, "year": "2020-2025" },
+        { "name": "M4", "tankSize": 15.6, "year": "2020-2025" },
+        { "name": "M5", "tankSize": 18.5, "year": "2020-2025" },
+        { "name": "M8", "tankSize": 18.5, "year": "2020-2025" },
+        { "name": "330i", "tankSize": 15.6, "year": "2020-2025" },
+        { "name": "340i", "tankSize": 15.6, "year": "2020-2025" },
+        { "name": "540i", "tankSize": 18.5, "year": "2020-2025" },
+        { "name": "X3 M", "tankSize": 17.7, "year": "2020-2025" },
+        { "name": "X4 M", "tankSize": 17.7, "year": "2020-2025" },
+        { "name": "X5 M", "tankSize": 21.9, "year": "2020-2025" }
+      ]
+    },
+    {
+      "make": "Porsche",
+      "models": [
+        { "name": "911 Carrera", "tankSize": 16.9, "year": "2020-2025" },
+        { "name": "911 Turbo", "tankSize": 17.6, "year": "2020-2025" },
+        { "name": "911 GT3", "tankSize": 17.6, "year": "2020-2025" },
+        { "name": "718 Cayman", "tankSize": 14.2, "year": "2020-2025" },
+        { "name": "718 Boxster", "tankSize": 14.2, "year": "2020-2025" },
+        { "name": "Cayenne", "tankSize": 21.1, "year": "2020-2025" },
+        { "name": "Macan", "tankSize": 16.9, "year": "2020-2025" },
+        { "name": "Panamera", "tankSize": 21.1, "year": "2020-2025" }
+      ]
+    },
+    {
+      "make": "Mercedes-Benz",
+      "models": [
+        { "name": "C63 AMG", "tankSize": 17.4, "year": "2020-2025" },
+        { "name": "E63 AMG", "tankSize": 17.4, "year": "2020-2025" },
+        { "name": "AMG GT", "tankSize": 18.5, "year": "2020-2025" },
+        { "name": "C300", "tankSize": 17.4, "year": "2020-2025" },
+        { "name": "E300", "tankSize": 17.4, "year": "2020-2025" },
+        { "name": "S500", "tankSize": 21.1, "year": "2020-2025" }
+      ]
+    },
+    {
+      "make": "Volkswagen",
+      "models": [
+        { "name": "Golf R", "tankSize": 13.2, "year": "2020-2025" },
+        { "name": "GTI", "tankSize": 13.2, "year": "2020-2025" },
+        { "name": "Jetta GLI", "tankSize": 13.2, "year": "2020-2025" }
+      ]
+    },
+    {
+      "make": "Subaru",
+      "models": [
+        { "name": "WRX", "tankSize": 15.9, "year": "2020-2025" },
+        { "name": "WRX STI", "tankSize": 15.9, "year": "2020-2025" },
+        { "name": "BRZ", "tankSize": 13.2, "year": "2020-2025" }
+      ]
+    },
+    {
+      "make": "Honda",
+      "models": [
+        { "name": "Civic Type R", "tankSize": 12.4, "year": "2020-2025" },
+        { "name": "Civic Si", "tankSize": 12.4, "year": "2020-2025" }
+      ]
+    },
+    {
+      "make": "Toyota",
+      "models": [
+        { "name": "Supra", "tankSize": 13.7, "year": "2020-2025" },
+        { "name": "GR86", "tankSize": 13.2, "year": "2020-2025" }
+      ]
+    },
+    {
+      "make": "Ford",
+      "models": [
+        { "name": "Mustang GT", "tankSize": 15.5, "year": "2020-2025" },
+        { "name": "Mustang EcoBoost", "tankSize": 15.5, "year": "2020-2025" },
+        { "name": "Focus RS", "tankSize": 12.4, "year": "2016-2018" }
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "models": [
+        { "name": "Corvette C8", "tankSize": 18.6, "year": "2020-2025" },
+        { "name": "Camaro SS", "tankSize": 19.0, "year": "2020-2025" },
+        { "name": "Camaro ZL1", "tankSize": 19.0, "year": "2020-2025" }
+      ]
+    },
+    {
+      "make": "Dodge",
+      "models": [
+        { "name": "Challenger Hellcat", "tankSize": 18.5, "year": "2020-2025" },
+        { "name": "Charger Hellcat", "tankSize": 18.5, "year": "2020-2025" }
+      ]
+    },
+    {
+      "make": "Nissan",
+      "models": [
+        { "name": "GT-R", "tankSize": 19.5, "year": "2020-2025" },
+        { "name": "370Z", "tankSize": 19.0, "year": "2020" },
+        { "name": "Z (400Z)", "tankSize": 13.2, "year": "2023-2025" }
+      ]
+    }
+  ]
+}
+

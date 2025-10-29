@@ -1,0 +1,430 @@
+{
+  "tuneProvider": "DS1 (Dyno Spectrum)",
+  "note": "DS1 focuses on custom real-time tuning. Power numbers are typical results and may vary significantly based on individual tuning.",
+  "vehicles": [
+    {
+      "make": "Audi",
+      "model": "RS3",
+      "engine": "2.5T I5 DAZA",
+      "stockPower": {
+        "hp": 400,
+        "tq": 354
+      },
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "description": "Tune only",
+          "fuel93": {
+            "hp": 480,
+            "tq": 450,
+            "hpGain": 80,
+            "tqGain": 96,
+            "percentGain": 20.0
+          },
+          "fuelE85": {
+            "hp": 530,
+            "tq": 510,
+            "hpGain": 130,
+            "tqGain": 156,
+            "percentGain": 32.5
+          }
+        },
+        {
+          "stage": "Stage 2",
+          "description": "Intake+elbow, high flow catted downpipe and/or intercooler",
+          "fuel93": {
+            "hp": 520,
+            "tq": 490,
+            "hpGain": 120,
+            "tqGain": 136,
+            "percentGain": 30.0
+          },
+          "fuelE85": {
+            "hp": 580,
+            "tq": 560,
+            "hpGain": 180,
+            "tqGain": 206,
+            "percentGain": 45.0
+          }
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "TTRS",
+      "engine": "2.5T I5 DAZA",
+      "stockPower": {
+        "hp": 400,
+        "tq": 354
+      },
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "description": "Tune only",
+          "fuel93": {
+            "hp": 480,
+            "tq": 450,
+            "hpGain": 80,
+            "tqGain": 96,
+            "percentGain": 20.0
+          },
+          "fuelE85": {
+            "hp": 530,
+            "tq": 510,
+            "hpGain": 130,
+            "tqGain": 156,
+            "percentGain": 32.5
+          }
+        },
+        {
+          "stage": "Stage 2",
+          "description": "Intake+elbow, high flow catted downpipe and/or intercooler",
+          "fuel93": {
+            "hp": 520,
+            "tq": 490,
+            "hpGain": 120,
+            "tqGain": 136,
+            "percentGain": 30.0
+          },
+          "fuelE85": {
+            "hp": 580,
+            "tq": 560,
+            "hpGain": 180,
+            "tqGain": 206,
+            "percentGain": 45.0
+          }
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "S4 B9",
+      "engine": "3.0T V6",
+      "stockPower": {
+        "hp": 349,
+        "tq": 369
+      },
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "description": "Tune only",
+          "fuel93": {
+            "hp": 445,
+            "tq": 480,
+            "hpGain": 96,
+            "tqGain": 111,
+            "percentGain": 27.5
+          },
+          "fuelE85": {
+            "hp": 490,
+            "tq": 550,
+            "hpGain": 141,
+            "tqGain": 181,
+            "percentGain": 40.4
+          }
+        },
+        {
+          "stage": "Stage 2",
+          "description": "Intakes, intercooler upgrades",
+          "fuel93": {
+            "hp": 480,
+            "tq": 520,
+            "hpGain": 131,
+            "tqGain": 151,
+            "percentGain": 37.5
+          },
+          "fuelE85": {
+            "hp": 540,
+            "tq": 590,
+            "hpGain": 191,
+            "tqGain": 221,
+            "percentGain": 54.7
+          }
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "S5 B9",
+      "engine": "3.0T V6",
+      "stockPower": {
+        "hp": 349,
+        "tq": 369
+      },
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "description": "Tune only",
+          "fuel93": {
+            "hp": 445,
+            "tq": 480,
+            "hpGain": 96,
+            "tqGain": 111,
+            "percentGain": 27.5
+          },
+          "fuelE85": {
+            "hp": 490,
+            "tq": 550,
+            "hpGain": 141,
+            "tqGain": 181,
+            "percentGain": 40.4
+          }
+        },
+        {
+          "stage": "Stage 2",
+          "description": "Intakes, intercooler upgrades",
+          "fuel93": {
+            "hp": 480,
+            "tq": 520,
+            "hpGain": 131,
+            "tqGain": 151,
+            "percentGain": 37.5
+          },
+          "fuelE85": {
+            "hp": 540,
+            "tq": 590,
+            "hpGain": 191,
+            "tqGain": 221,
+            "percentGain": 54.7
+          }
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "S6 C7",
+      "engine": "4.0T V8",
+      "stockPower": {
+        "hp": 420,
+        "tq": 406
+      },
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "description": "Tune only",
+          "fuel93": {
+            "hp": 530,
+            "tq": 540,
+            "hpGain": 110,
+            "tqGain": 134,
+            "percentGain": 26.2
+          },
+          "fuelE85": {
+            "hp": 600,
+            "tq": 620,
+            "hpGain": 180,
+            "tqGain": 214,
+            "percentGain": 42.9
+          }
+        },
+        {
+          "stage": "Stage 2",
+          "description": "Intakes, intercooler upgrades",
+          "fuel93": {
+            "hp": 570,
+            "tq": 580,
+            "hpGain": 150,
+            "tqGain": 174,
+            "percentGain": 35.7
+          },
+          "fuelE85": {
+            "hp": 650,
+            "tq": 670,
+            "hpGain": 230,
+            "tqGain": 264,
+            "percentGain": 54.8
+          }
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "S7 C7",
+      "engine": "4.0T V8",
+      "stockPower": {
+        "hp": 420,
+        "tq": 406
+      },
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "description": "Tune only",
+          "fuel93": {
+            "hp": 530,
+            "tq": 540,
+            "hpGain": 110,
+            "tqGain": 134,
+            "percentGain": 26.2
+          },
+          "fuelE85": {
+            "hp": 600,
+            "tq": 620,
+            "hpGain": 180,
+            "tqGain": 214,
+            "percentGain": 42.9
+          }
+        },
+        {
+          "stage": "Stage 2",
+          "description": "Intakes, intercooler upgrades",
+          "fuel93": {
+            "hp": 570,
+            "tq": 580,
+            "hpGain": 150,
+            "tqGain": 174,
+            "percentGain": 35.7
+          },
+          "fuelE85": {
+            "hp": 650,
+            "tq": 670,
+            "hpGain": 230,
+            "tqGain": 264,
+            "percentGain": 54.8
+          }
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "RS6 C7",
+      "engine": "4.0T V8",
+      "stockPower": {
+        "hp": 560,
+        "tq": 516
+      },
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "description": "Tune only",
+          "fuel93": {
+            "hp": 650,
+            "tq": 640,
+            "hpGain": 90,
+            "tqGain": 124,
+            "percentGain": 16.1
+          },
+          "fuelE85": {
+            "hp": 720,
+            "tq": 720,
+            "hpGain": 160,
+            "tqGain": 204,
+            "percentGain": 28.6
+          }
+        },
+        {
+          "stage": "Stage 2",
+          "description": "Cool climate or intercooler upgrades, intakes optional",
+          "fuel93": {
+            "hp": 690,
+            "tq": 680,
+            "hpGain": 130,
+            "tqGain": 164,
+            "percentGain": 23.2
+          },
+          "fuelE85": {
+            "hp": 780,
+            "tq": 780,
+            "hpGain": 220,
+            "tqGain": 264,
+            "percentGain": 39.3
+          }
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "RS7 C7",
+      "engine": "4.0T V8",
+      "stockPower": {
+        "hp": 560,
+        "tq": 516
+      },
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "description": "Tune only",
+          "fuel93": {
+            "hp": 650,
+            "tq": 640,
+            "hpGain": 90,
+            "tqGain": 124,
+            "percentGain": 16.1
+          },
+          "fuelE85": {
+            "hp": 720,
+            "tq": 720,
+            "hpGain": 160,
+            "tqGain": 204,
+            "percentGain": 28.6
+          }
+        },
+        {
+          "stage": "Stage 2",
+          "description": "Cool climate or intercooler upgrades, intakes optional",
+          "fuel93": {
+            "hp": 690,
+            "tq": 680,
+            "hpGain": 130,
+            "tqGain": 164,
+            "percentGain": 23.2
+          },
+          "fuelE85": {
+            "hp": 780,
+            "tq": 780,
+            "hpGain": 220,
+            "tqGain": 264,
+            "percentGain": 39.3
+          }
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "S8 D4",
+      "engine": "4.0T V8",
+      "stockPower": {
+        "hp": 520,
+        "tq": 481
+      },
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "description": "Tune only",
+          "fuel93": {
+            "hp": 620,
+            "tq": 610,
+            "hpGain": 100,
+            "tqGain": 129,
+            "percentGain": 19.2
+          },
+          "fuelE85": {
+            "hp": 690,
+            "tq": 690,
+            "hpGain": 170,
+            "tqGain": 209,
+            "percentGain": 32.7
+          }
+        },
+        {
+          "stage": "Stage 2",
+          "description": "Cool climate or intercooler upgrades, intakes optional",
+          "fuel93": {
+            "hp": 660,
+            "tq": 650,
+            "hpGain": 140,
+            "tqGain": 169,
+            "percentGain": 26.9
+          },
+          "fuelE85": {
+            "hp": 750,
+            "tq": 750,
+            "hpGain": 230,
+            "tqGain": 269,
+            "percentGain": 44.2
+          }
+        }
+      ]
+    }
+  ]
+}
+

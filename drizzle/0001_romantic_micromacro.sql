@@ -1,0 +1,23 @@
+CREATE TABLE `tank_history` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`userId` int NOT NULL,
+	`vehicleMake` varchar(100),
+	`vehicleModel` varchar(100),
+	`tankSize` int NOT NULL,
+	`currentTankLevel` int NOT NULL,
+	`currentEmix` int NOT NULL,
+	`targetEmix` int NOT NULL,
+	`pumpGasEthanol` int NOT NULL,
+	`pumpGasOctane` int NOT NULL,
+	`ethanolFuelPercent` int NOT NULL,
+	`ethanolFuelOctane` int NOT NULL,
+	`ethanolToAdd` int NOT NULL,
+	`pumpGasToAdd` int NOT NULL,
+	`resultingMix` int NOT NULL,
+	`resultingOctane` int NOT NULL,
+	`ethanolPrice` int,
+	`pumpGasPrice` int,
+	`totalCost` int,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	CONSTRAINT `tank_history_id` PRIMARY KEY(`id`)
+);

@@ -1,0 +1,376 @@
+{
+  "tuneCompany": "Integrated Engineering (IE)",
+  "models": [
+    {
+      "make": "Audi",
+      "model": "RS3 8V",
+      "engine": "2.5T I5",
+      "years": "2017-2020",
+      "stockHP": 400,
+      "stockTorque": 354,
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "fuel": "91 Octane",
+          "hp": 427,
+          "torque": 488,
+          "hpGain": 27,
+          "torqueGain": 134,
+          "percentGain": 6.8
+        },
+        {
+          "stage": "Stage 1",
+          "fuel": "93 Octane",
+          "hp": 450,
+          "torque": 500,
+          "hpGain": 50,
+          "torqueGain": 146,
+          "percentGain": 12.5
+        },
+        {
+          "stage": "Stage 1",
+          "fuel": "E85",
+          "hp": 517,
+          "torque": 527,
+          "hpGain": 117,
+          "torqueGain": 173,
+          "percentGain": 29.3
+        },
+        {
+          "stage": "Stage 2",
+          "fuel": "93 Octane",
+          "hp": 530,
+          "torque": 560,
+          "hpGain": 130,
+          "torqueGain": 206,
+          "percentGain": 32.5
+        },
+        {
+          "stage": "Stage 2",
+          "fuel": "E85",
+          "hp": 577,
+          "torque": 592,
+          "hpGain": 177,
+          "torqueGain": 238,
+          "percentGain": 44.3
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "TTRS 8S",
+      "engine": "2.5T I5",
+      "years": "2016-2020",
+      "stockHP": 400,
+      "stockTorque": 354,
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "fuel": "91 Octane",
+          "hp": 427,
+          "torque": 488,
+          "hpGain": 27,
+          "torqueGain": 134,
+          "percentGain": 6.8
+        },
+        {
+          "stage": "Stage 1",
+          "fuel": "93 Octane",
+          "hp": 450,
+          "torque": 500,
+          "hpGain": 50,
+          "torqueGain": 146,
+          "percentGain": 12.5
+        },
+        {
+          "stage": "Stage 1",
+          "fuel": "E85",
+          "hp": 517,
+          "torque": 527,
+          "hpGain": 117,
+          "torqueGain": 173,
+          "percentGain": 29.3
+        },
+        {
+          "stage": "Stage 2",
+          "fuel": "93 Octane",
+          "hp": 530,
+          "torque": 560,
+          "hpGain": 130,
+          "torqueGain": 206,
+          "percentGain": 32.5
+        },
+        {
+          "stage": "Stage 2",
+          "fuel": "E85",
+          "hp": 577,
+          "torque": 592,
+          "hpGain": 177,
+          "torqueGain": 238,
+          "percentGain": 44.3
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "S4 B9",
+      "engine": "3.0T V6",
+      "years": "2017-2024",
+      "stockHP": 349,
+      "stockTorque": 369,
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "fuel": "91 Octane",
+          "hp": 420,
+          "torque": 480,
+          "hpGain": 71,
+          "torqueGain": 111,
+          "percentGain": 20.3
+        },
+        {
+          "stage": "Stage 1",
+          "fuel": "93 Octane",
+          "hp": 450,
+          "torque": 520,
+          "hpGain": 101,
+          "torqueGain": 151,
+          "percentGain": 28.9
+        },
+        {
+          "stage": "Stage 1",
+          "fuel": "E85",
+          "hp": 505,
+          "torque": 585,
+          "hpGain": 156,
+          "torqueGain": 216,
+          "percentGain": 44.7
+        },
+        {
+          "stage": "Stage 2",
+          "fuel": "93 Octane",
+          "hp": 450,
+          "torque": 520,
+          "hpGain": 101,
+          "torqueGain": 151,
+          "percentGain": 28.9
+        },
+        {
+          "stage": "Stage 2",
+          "fuel": "E85",
+          "hp": 505,
+          "torque": 585,
+          "hpGain": 156,
+          "torqueGain": 216,
+          "percentGain": 44.7
+        },
+        {
+          "stage": "Stage 3",
+          "fuel": "93 Octane",
+          "hp": 650,
+          "torque": 630,
+          "hpGain": 301,
+          "torqueGain": 261,
+          "percentGain": 86.2,
+          "notes": "Requires TTE810 or Pure750 hybrid turbo"
+        },
+        {
+          "stage": "Stage 3",
+          "fuel": "E85",
+          "hp": 739,
+          "torque": 710,
+          "hpGain": 390,
+          "torqueGain": 341,
+          "percentGain": 111.7,
+          "notes": "Requires TTE810 or Pure750 hybrid turbo + Stage 3 Plus (4 bar MAP, HPFP, injectors)"
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "S5 B9",
+      "engine": "3.0T V6",
+      "years": "2017-2024",
+      "stockHP": 349,
+      "stockTorque": 369,
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "fuel": "91 Octane",
+          "hp": 420,
+          "torque": 480,
+          "hpGain": 71,
+          "torqueGain": 111,
+          "percentGain": 20.3
+        },
+        {
+          "stage": "Stage 1",
+          "fuel": "93 Octane",
+          "hp": 450,
+          "torque": 520,
+          "hpGain": 101,
+          "torqueGain": 151,
+          "percentGain": 28.9
+        },
+        {
+          "stage": "Stage 1",
+          "fuel": "E85",
+          "hp": 505,
+          "torque": 585,
+          "hpGain": 156,
+          "torqueGain": 216,
+          "percentGain": 44.7
+        },
+        {
+          "stage": "Stage 2",
+          "fuel": "93 Octane",
+          "hp": 450,
+          "torque": 520,
+          "hpGain": 101,
+          "torqueGain": 151,
+          "percentGain": 28.9
+        },
+        {
+          "stage": "Stage 2",
+          "fuel": "E85",
+          "hp": 505,
+          "torque": 585,
+          "hpGain": 156,
+          "torqueGain": 216,
+          "percentGain": 44.7
+        },
+        {
+          "stage": "Stage 3",
+          "fuel": "93 Octane",
+          "hp": 650,
+          "torque": 630,
+          "hpGain": 301,
+          "torqueGain": 261,
+          "percentGain": 86.2,
+          "notes": "Requires TTE810 or Pure750 hybrid turbo"
+        },
+        {
+          "stage": "Stage 3",
+          "fuel": "E85",
+          "hp": 739,
+          "torque": 710,
+          "hpGain": 390,
+          "torqueGain": 341,
+          "percentGain": 111.7,
+          "notes": "Requires TTE810 or Pure750 hybrid turbo + Stage 3 Plus"
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "SQ5 B9",
+      "engine": "3.0T V6",
+      "years": "2017-2024",
+      "stockHP": 349,
+      "stockTorque": 369,
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "fuel": "91 Octane",
+          "hp": 420,
+          "torque": 480,
+          "hpGain": 71,
+          "torqueGain": 111,
+          "percentGain": 20.3
+        },
+        {
+          "stage": "Stage 1",
+          "fuel": "93 Octane",
+          "hp": 450,
+          "torque": 520,
+          "hpGain": 101,
+          "torqueGain": 151,
+          "percentGain": 28.9
+        },
+        {
+          "stage": "Stage 1",
+          "fuel": "E85",
+          "hp": 505,
+          "torque": 585,
+          "hpGain": 156,
+          "torqueGain": 216,
+          "percentGain": 44.7
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "S3 8Y",
+      "engine": "2.0T EA888",
+      "years": "2022+",
+      "stockHP": 306,
+      "stockTorque": 295,
+      "tunes": [
+        {
+          "stage": "Stage 1",
+          "fuel": "91 Octane",
+          "hp": 390,
+          "torque": 400,
+          "hpGain": 84,
+          "torqueGain": 105,
+          "percentGain": 27.5
+        },
+        {
+          "stage": "Stage 1",
+          "fuel": "93 Octane",
+          "hp": 410,
+          "torque": 420,
+          "hpGain": 104,
+          "torqueGain": 125,
+          "percentGain": 34.0
+        },
+        {
+          "stage": "Stage 1",
+          "fuel": "E85",
+          "hp": 457,
+          "torque": 460,
+          "hpGain": 151,
+          "torqueGain": 165,
+          "percentGain": 49.3
+        },
+        {
+          "stage": "Stage 2",
+          "fuel": "93 Octane",
+          "hp": 440,
+          "torque": 445,
+          "hpGain": 134,
+          "torqueGain": 150,
+          "percentGain": 43.8
+        },
+        {
+          "stage": "Stage 2",
+          "fuel": "E85",
+          "hp": 490,
+          "torque": 485,
+          "hpGain": 184,
+          "torqueGain": 190,
+          "percentGain": 60.1
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "e85Benefits": [
+      "Higher octane rating (typically 102-105 vs 91-93 for pump gas)",
+      "Cooler combustion temperatures",
+      "Higher resistance to knock/detonation",
+      "Allows more aggressive timing and boost",
+      "Typically 20-30% more power than 93 octane",
+      "More cost-effective than race gas"
+    ],
+    "e85Considerations": [
+      "Requires 30-40% more fuel volume",
+      "May need upgraded fuel system (pump, injectors)",
+      "Cold start can be difficult in freezing temperatures",
+      "Ethanol content varies (E60-E85) depending on season and location",
+      "TrueFlex system automatically adapts to ethanol content"
+    ],
+    "dynoTesting": "All power figures are crank HP estimates. Wheel HP typically 15-20% lower due to drivetrain losses. Real-world results from IE customer dynos show Stage 1 E85 B9 S4 making 440+ WHP, Stage 2 E85 RS3 making 500+ WHP."
+  }
+}
+
